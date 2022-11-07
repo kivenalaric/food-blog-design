@@ -1,12 +1,12 @@
 * {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
 }
 
 html {
-    font-size: 15px;
-  }
+  font-size: 15px;
+}
 
 .page-container {
   width: 95%;
@@ -44,7 +44,7 @@ main {
 .foods {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap:15px
+  grid-gap: 15px;
 }
 
 .food-g {
@@ -76,10 +76,10 @@ main {
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
-  
+ 
 .text p {
   text-align: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin-top: 1em;
 }
 
@@ -94,6 +94,10 @@ main {
 .page-num ul {
   display: flex;
   list-style-type: none;
+}
+
+.footer a {
+  color: #000;
 }
 
 .page-num ul li a {
@@ -167,9 +171,8 @@ footer {
 }
 
 footer div {
-    max-width: 33%;
+  max-width: 33%;
 }
-
 
 footer h1 {
   font-weight: 200;
@@ -183,20 +186,16 @@ footer h1 {
   justify-content: space-between;
 }
 
-.footer a {
-  color: #000;
-}
-
 .footer a span {
   text-decoration: underline;
   line-height: 1em;
 }
 
 .footer a span:hover {
-  color: #ff0000;
+  color: #f00;
 }
 
-.blog_post {
+.blog-post {
   width: 100%;
 }
 
@@ -227,7 +226,7 @@ footer h1 {
   background-color: #757575;
   color: #fff;
   margin: 5px 2px;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .tag-1 {
@@ -237,7 +236,7 @@ footer h1 {
   background-color: black;
 }
 
-@media only screen and (max-width:748px) {
+@media only screen and (max-width: 748px) {
   .page-container {
     width: 98vw;
     margin: auto;
@@ -262,7 +261,7 @@ footer h1 {
     margin: 0 25px;
   }
 
-  .about{
+  .about {
     width: 100%;
     margin-left: 30px;
   }
@@ -277,8 +276,8 @@ footer h1 {
     width: 100%;
     margin: 0 30px;
   }
-    
-  footer >div {
+
+  footer div {
     max-width: 100%;
     margin-bottom: 50px;
   }
