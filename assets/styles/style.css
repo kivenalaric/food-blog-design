@@ -255,6 +255,14 @@ footer h1 {
     margin: 5px;
   }
 
+  .foods {
+    grid-template-columns: 350px;
+  }
+
+  .food-g {
+    margin-left: 30px;
+  }
+
   .line1,
   .line2 {
     width: 100%;
@@ -263,12 +271,12 @@ footer h1 {
 
   .about {
     width: 100%;
-    margin-left: 30px;
+    margin-left: 15px;
   }
 
   .food-g .img {
-    max-width: 100px;
-    height: 300px;
+    max-width: 400px;
+    height: 500px;
   }
 
   footer {
