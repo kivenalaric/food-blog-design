@@ -88,9 +88,10 @@ main {
 
 .page-num {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  margin: 5% 0;
 }
 
 .page-num ul {
