@@ -3,7 +3,8 @@
 this is a project about a food blog
 
 ## ABOUT
--This is a food blog project amongst 7 projects given to i and my mates as an assignment to test our skills on HTML and CSS. 
+
+-This is a food blog project amongst 7 projects given to i and my mates as an assignment to test our skills on HTML and CSS.
 
 ## App
 
