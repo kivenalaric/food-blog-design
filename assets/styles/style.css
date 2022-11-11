@@ -285,13 +285,15 @@ footer h1 {
 
   .food-g .img {
     margin: auto;
-    max-width: 100%;
+    max-width: 500px;
     min-width: 200px;
     height: 500px;
+    width: 80%;
   }
 
   .food-g .text {
-    max-width: 100%;
+    max-width: 450px;
+    width: 80%;
     text-align: center;
     margin: 10px auto;
   }
