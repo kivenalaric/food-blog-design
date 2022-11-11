@@ -105,6 +105,11 @@ main {
   color: #000;
 }
 
+.foot a {
+  text-decoration: underline;
+  color: #000;
+}
+
 .page-num ul li a {
   text-decoration: none;
   color: #000;
@@ -188,11 +193,6 @@ footer h1 {
 .foot {
   display: flex;
   flex-direction: column;
-  }
-
-.foot a {
-  text-decoration: underline;
-  color: #000;
 }
 
 .footer a:hover {
@@ -288,7 +288,6 @@ footer h1 {
     max-width: 100%;
     min-width: 200px;
     height: 500px;
-    margin: auto;
   }
 
   .food-g .text {
