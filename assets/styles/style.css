@@ -188,15 +188,14 @@ footer h1 {
 .foot {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
+  }
 
-.footer a span {
+.foot a {
   text-decoration: underline;
-  line-height: 1em;
+  color: #000;
 }
 
-.footer a span:hover {
+.footer a:hover {
   color: #f00;
 }
 
@@ -207,15 +206,19 @@ footer h1 {
 .blog {
   display: flex;
   flex-direction: row;
-  width: 100%;
   max-width: 400px;
-  border-bottom: 1px solid #d3d3d3;
   padding-top: 1em;
 }
 
 .blog img {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
+}
+
+.blog-post hr {
+  max-width: 400px;
+  margin: 15px 0 1px;
+  background-color: #c1c0c0;
 }
 
 .foot-text {
@@ -230,7 +233,7 @@ footer h1 {
   padding: 2px 5px;
   background-color: #757575;
   color: #fff;
-  margin: 5px 2px;
+  margin: 2px 2px 4px;
   font-size: 0.8rem;
 }
 
@@ -241,7 +244,7 @@ footer h1 {
   background-color: black;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .page-container {
     width: 100vw;
     margin: auto;
@@ -282,13 +285,14 @@ footer h1 {
 
   .food-g .img {
     margin: auto;
-    max-width: 500px;
+    max-width: 100%;
     min-width: 200px;
     height: 500px;
+    margin: auto;
   }
 
   .food-g .text {
-    max-width: 300px;
+    max-width: 100%;
     text-align: center;
     margin: 10px auto;
   }
@@ -298,15 +302,26 @@ footer h1 {
   }
 
   footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
+    display: block;
     margin: auto;
-    max-width: 350px;
+    max-width: 250px;
+  }
+
+  .blog-post hr {
+    max-width: 300px;
   }
 
   footer div {
     max-width: 400px;
     margin: 10px auto;
   }
+
+  .tag-2 {
+    margin: 4px;
+  }
+  
+  .tag-1 {
+    margin: 2px;
+  }
+}
 }
