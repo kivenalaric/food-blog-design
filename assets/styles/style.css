@@ -271,7 +271,7 @@ footer h1 {
 
   .line1,
   .line2 {
-    margin: 0 10% 0;
+    margin: 0 10%;
     justify-content: center;
   }
 
@@ -291,7 +291,6 @@ footer h1 {
     max-width: 300px;
     text-align: center;
     margin: 10px auto;
-    
   }
 
   .foot-p {
@@ -309,6 +308,5 @@ footer h1 {
   footer div {
     max-width: 400px;
     margin: 10px auto;
-
   }
 }
