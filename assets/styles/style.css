@@ -30,7 +30,7 @@ header {
 
 main {
   max-width: 1200px;
-  margin: auto;
+  margin: 5px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 50px;
@@ -133,13 +133,14 @@ main {
 }
 
 .line1 {
-  margin: 4rem 0;
+  margin: 4rem 5px;
 }
 
 .about {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 5em;
+  margin: 10px;
 }
 
 .abt-t {
@@ -169,7 +170,7 @@ main {
 }
 
 .line2 {
-  margin: 4rem 0;
+  margin: 4rem 5px;
 }
 
 footer {
@@ -178,6 +179,7 @@ footer {
   padding-top: 70px;
   display: flex;
   justify-content: space-between;
+  margin: 5px;
 }
 
 footer div {
