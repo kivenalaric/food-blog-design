@@ -22,14 +22,15 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
-  position: fixed;
+  height: 80px;
+  position: sticky;
   top: 0;
   background-color: #fff;
 }
 
 main {
-  width: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: grid;
   grid-template-columns: 1fr;
   gap: 50px;
@@ -261,10 +262,7 @@ footer h1 {
   }
 
   main {
-    width: 100%;
-    grid-template-columns: 450px;
-    justify-content: center;
-    margin: auto;
+    display: block;
   }
 
   .first-food {
