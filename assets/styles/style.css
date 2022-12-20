@@ -1,0 +1,329 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 15px;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+main {
+  max-width: 1200px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.icon {
+  width: 30px;
+  height: 4px;
+  background-color: #000;
+  margin: 5px 0;
+  border-radius: 25%;
+}
+
+.first-food {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.food-g {
+  max-height: 550px;
+  display: grid;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  width: 100%;
+  height: 400px;
+  margin-top: 3em;
+}
+
+.text h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.text p {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1em;
+}
+
+.page-num {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.page-num ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer a {
+  color: #000;
+}
+
+.foot a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.page-num ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 4px;
+}
+
+.page-num ul li {
+  color: #000;
+  font-weight: 300;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.page-num .num-1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.num-1:hover {
+  background-color: #727170;
+}
+
+.line1 {
+  margin: 4rem 5px;
+}
+
+.about {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 5em;
+  margin: 10px;
+}
+
+.abt-t {
+  margin: 5% 0;
+  font-weight: lighter;
+}
+
+.abt-img {
+  max-width: 800px;
+  max-height: 800px;
+  margin: 10px auto;
+}
+
+.abt-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.about .p1 {
+  font-style: italic;
+}
+
+.about p {
+  margin: 20px 0;
+  font-size: 1rem;
+  line-height: 1.2em;
+}
+
+.line2 {
+  margin: 4rem 5px;
+}
+
+footer {
+  width: 100%;
+  padding: 2em 0;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+footer div {
+  max-width: 33%;
+}
+
+footer h1 {
+  font-weight: 200;
+  font-size: 22px;
+  margin-bottom: 1em;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a:hover {
+  color: #f00;
+}
+
+.blog-post {
+  width: 100%;
+}
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  padding-top: 1em;
+}
+
+.blog img {
+  width: 50px;
+  height: 50px;
+}
+
+.blog-post hr {
+  max-width: 400px;
+  margin: 15px 0 1px;
+  background-color: #c1c0c0;
+}
+
+.foot-text {
+  max-width: 200px;
+  margin-left: 20px;
+  padding: 0;
+  text-align: left;
+}
+
+.tag-2 {
+  float: left;
+  padding: 2px 5px;
+  background-color: #757575;
+  color: #fff;
+  margin: 2px 2px 4px;
+  font-size: 0.8rem;
+}
+
+.tag-1 {
+  float: left;
+  padding: 2px 5px;
+  color: #fff;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-container {
+    width: 100vw;
+    margin: auto;
+  }
+
+  body {
+    width: 100vw;
+  }
+
+  header {
+    width: 100vw;
+    font-size: smaller;
+  }
+
+  nav {
+    width: 100%;
+    margin: auto;
+  }
+
+  main {
+    display: block;
+  }
+
+  .first-food {
+    grid-template-columns: 1fr;
+  }
+
+  .line1,
+  .line2 {
+    margin: 0 10%;
+    justify-content: center;
+  }
+
+  .about {
+    justify-content: center;
+    margin: 0 10%;
+  }
+
+  .food-g .img {
+    margin: auto;
+    max-width: 500px;
+    min-width: 200px;
+    height: 500px;
+    width: 80%;
+  }
+
+  .food-g .text {
+    max-width: 450px;
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .foot-p {
+    text-align: center;
+  }
+
+  footer {
+    display: block;
+    margin: auto;
+    max-width: 250px;
+  }
+
+  .blog-post hr {
+    max-width: 300px;
+  }
+
+  footer div {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+
+  .tag-2 {
+    margin: 4px;
+  }
+
+  .tag-1 {
+    margin: 2px;
+  }
+}
